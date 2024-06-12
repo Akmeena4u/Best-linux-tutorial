@@ -1,3 +1,5 @@
+
+# Linux Commands 
 Linux commands are instructions or programs that you enter into the terminal or command-line interface of a Linux-based operating system to perform various tasks. These commands allow users to interact with the system, manage files, control processes, configure settings, and perform administrative tasks. Linux commands are typically textual and are executed by typing them into the terminal followed by pressing Enter. They are essential for navigating, managing, and controlling the Linux system efficiently.
 
 Linux/Unix commands are case-sensitive, meaning that uppercase and lowercase letters are treated differently.
@@ -5,104 +7,6 @@ Linux/Unix commands are case-sensitive, meaning that uppercase and lowercase let
 ---
 
 
-### USER MANAGEMENT
-- **useradd:** Creates a new user.
-- **groupadd:** Creates a new group.
-- **usermod:** Modifies user attributes.
-- **userdel:** Deletes a user.
-- **groupdel:** Deletes a group.
-- **passwd:** Changes a user's password.
-- **id:** Displays user or group IDs.
-
-### NETWORKING
-- **ifconfig:** Displays network interface information.
-- **ping:** Tests network connectivity.
-- **netstat:** Displays network statistics.
-- **traceroute:** Shows network route to a destination.
-- **telnet:** Checks if a port is open and accessible.
-
-### PROCESS MANAGEMENT
-- **sleep:** Delays execution for a specified time.
-- **ps:** Displays information about processes.
-- **grep:** Searches for patterns in text.
-- **kill:** Terminates processes by ID.
-- **pkill:** Terminates processes by name.
-- **jobs:** Lists active jobs.
-- **bg:** Resumes a job in the background.
-- **fg:** Brings a job to the foreground.
-- **nohup:** Runs a command immune to hangups.
-
-### SYSTEM INFO
-- **hostname:** Shows the system's hostname.
-- **lscpu:** Displays CPU information.
-- **arch:** Shows the system's architecture.
-- **lsblk:** Lists block devices.
-- **uname:** Displays system information.
-
-### MEMORY INFO
-- **top:** Displays system resource usage.
-- **free:** Shows free and used memory.
-- **du:** Displays disk usage.
-- **df:** Shows disk space usage.
-
-### CHANGE USER & REMOTE ACCESS
-- **su:** Switches user.
-- **sudo:** Executes commands with superuser privileges.
-- **exit:** Logs out or exits the terminal.
-- **ssh:** Connects to a remote server securely.
-- **scp:** Copies files securely between hosts.
-
-### FILE PERMISSIONS
-- **chmod:** Modifies file permissions.
-- **chown:** Changes file ownership.
-- **chgrp:** Changes file group ownership.
-
-### TEXT PROCESSING
-- **awk:** Processes and analyzes text files.
-- **cut:** Extracts sections from lines.
-- **sed:** Edits text using scripts.
-- **tr:** Translates or deletes characters.
-- **truncate:** Resizes files.
-- **fold:** Wraps lines to fit a specified width.
-
-### ENV VARIABLES & INSTALLATIONS
-- **printenv:** Displays environment variables.
-- **export:** Sets environment variables.
-- **source:** Executes commands from a file.
-- **apt/yum/dnf:** Installs and manages software packages.
-- **systemctl:** Manages system services.
-
-### DOWNLOAD FILES & COMPRESS/DECOMPRESS
-- **wget:** Downloads files from the internet.
-- **curl:** Transfers data using URLs.
-- **tar/gzip/zip/unzip:** Compresses and decompresses files.
-
-### OTHER USEFUL COMMANDS
-- **history/help/man/which:** Displays command history, syntax help, manual pages, and executable locations.
-- **cal/uptime:** Shows calendar and system uptime.
-- **script/alias:** Records terminal sessions and creates command aliases.
-
-### FILES & DIRECTORIES MANAGEMENT
-- **cd/cp/mv/grep/egrep:** Navigates directories, copies, moves files, and searches content.
-- **head/tail/sort/uniq/split:** Displays file content, sorts, removes duplicates, and splits files.
-- **cat/less/more/touch/rm:** Displays, edits, creates, and deletes files.
-- **vi/nano/mkdir/rmdir/pwd/whoami/date/ls/clear:** Edits files, creates directories, shows current directory, user, date, and lists files.
-
-### FIRST TIME ON TERMINAL
-- Basic commands for new terminal users.
-
-### SCRIPTING & AUTOMATION
-- **at/crontab:** Schedules tasks.
-- **bash or sh:** Shell scripting.
-
-### SYSTEM CONTROL
-- **reboot/shutdown:** Restarts or shuts down the system.
-
-### FIREWALL SETTINGS
-- Commands to manage firewall rules.
-
-
----
 
 1. **pwd**:
    - Command: `pwd`
@@ -155,7 +59,7 @@ Linux/Unix commands are case-sensitive, meaning that uppercase and lowercase let
 
 ---
 
-#### Creating Deleting Editing
+# Creating Deleting Editing
 
 6. **cat**:
    - Command: `cat <file>`
@@ -368,7 +272,7 @@ Linux/Unix commands are case-sensitive, meaning that uppercase and lowercase let
 
 ---
 
-##### Utility commands in Linux:
+# Utility commands in Linux:
 
 32. **history** (Display previously used commands):
     - Command: `history`
@@ -444,7 +348,7 @@ Linux/Unix commands are case-sensitive, meaning that uppercase and lowercase let
 
 ---
 
-####  zip and unzip commands in Linux:
+#  zip and unzip commands in Linux:
 
 41. **gzip -k file** (Compress a file in Linux):
     - Command: `gzip -k <file>`
@@ -497,7 +401,7 @@ Linux/Unix commands are case-sensitive, meaning that uppercase and lowercase let
 
 ---
 
-#### Downloading Files from Internet
+# Downloading Files from Internet
 
 47. **wget URL** (Download a file from the internet using wget):
    - Command: `wget <URL>`
@@ -680,7 +584,7 @@ Linux/Unix commands are case-sensitive, meaning that uppercase and lowercase let
 
 ---
 
-#### Access Remote Servers
+# Access Remote Servers
 
 Here are the notes for the specified commands:
 
@@ -741,7 +645,7 @@ Here are the notes for the specified commands:
 
 ---
 
-#### Memory Info
+# Memory Info
 
 Here are the notes for the specified commands:
 
@@ -779,7 +683,7 @@ Here are the notes for the specified commands:
 
 ---
 
-#### System INFO
+# System INFO
 
 
 77. **hostname** (Check hostname of your Linux server):
@@ -824,7 +728,7 @@ Here are the notes for the specified commands:
 
 ---
 
-#### Process Management
+# Process Management
 
 
 82. **ps -ef | grep java** (Check if a process (java) is running or not):
@@ -893,7 +797,7 @@ Here are the notes for the specified commands:
 
 ---
 
-#### Networking Info
+# Networking Info
 
 
 90. **ifconfig** (Check IP of your machine):
@@ -954,7 +858,7 @@ Here are the notes for the specified commands:
 
 ---
 
-#### User Creation
+# User Creation
 
 
 97. **useradd** (Create a new user on our Linux server):
